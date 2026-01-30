@@ -84,7 +84,7 @@ function Registrationpage() {
         
 
         <p className="forgot">Forgot Password?</p>
-        <p className="have-account">Already have an account?</p>
+        <p className="have-account">Already have an account? in </p>
       </form>
     </div>
   );
