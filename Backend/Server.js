@@ -5,7 +5,9 @@ const cors=require('cors')
 const app = express()
 app.use(express.json())
 connectdb();
-app.use(cors());
+app.use(cors({
+      origin: "http://13.63.159.25"}
+));
 
 
 const RegisterRoute=require('./routes/RegisterRoute')
