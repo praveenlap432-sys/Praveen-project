@@ -25,7 +25,7 @@ function Registrationpage() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/register/regpost",
+        "http://13.63.159.25:3000/register/regpost",
         formData
       );
 
