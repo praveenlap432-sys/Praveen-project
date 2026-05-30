@@ -10,6 +10,10 @@ app.use(cors({
 ));
 
 
+app.get("/", (req, res) => {
+    res.send("Backend Working");
+});
+
 const RegisterRoute=require('./routes/RegisterRoute')
 
 
