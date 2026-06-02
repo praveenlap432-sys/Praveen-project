@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 connectdb();
 app.use(cors({
-      origin: "http://forntendmy01.s3-website.eu-north-1.amazonaws.com/"}
+      origin: "http://forntendmy01.s3-website.eu-north-1.amazonaws.com¸"}
 ));
 
 
